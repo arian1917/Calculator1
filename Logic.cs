@@ -5,8 +5,7 @@ class Logic{
     static double result = 0;
     static int count = 1; 
     static double cleanNum1 = 0; 
-    static double cleanNum2 = 0; 
-    static string operation = ""; 
+  
 
 
     internal static double SetFirstNum(){
@@ -14,7 +13,7 @@ class Logic{
         Console.WriteLine("Enter a number, then type any key");
         var num1 = Console.ReadLine();
 
-        double cleanNum1 = 0;
+        double cleanNum1;
         while (string.IsNullOrWhiteSpace(num1) || !double.TryParse(num1, out cleanNum1))
         {
             Console.WriteLine("Please, enter a valid number");

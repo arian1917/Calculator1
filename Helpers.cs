@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
+﻿
 using CalculatorProgram;
 
 
@@ -61,7 +55,7 @@ internal class Helpers
 
     internal static double Recalculate(double result)
     {
-        double num1 = 0; 
+        double num1; 
         result = 0;
 
         var lastCalculation = engine[^1];
