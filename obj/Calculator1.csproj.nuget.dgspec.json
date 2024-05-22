@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\visual\\CsharpProjects\\Calculator1\\Calculator1.csproj": {}
+    "C:\\arian\\CodeReviews.Console.Calculator\\Calculator1\\Calculator1.csproj": {}
   },
   "projects": {
-    "E:\\visual\\CsharpProjects\\Calculator1\\Calculator1.csproj": {
+    "C:\\arian\\CodeReviews.Console.Calculator\\Calculator1\\Calculator1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\visual\\CsharpProjects\\Calculator1\\Calculator1.csproj",
+        "projectUniqueName": "C:\\arian\\CodeReviews.Console.Calculator\\Calculator1\\Calculator1.csproj",
         "projectName": "Calculator1",
-        "projectPath": "E:\\visual\\CsharpProjects\\Calculator1\\Calculator1.csproj",
+        "projectPath": "C:\\arian\\CodeReviews.Console.Calculator\\Calculator1\\Calculator1.csproj",
         "packagesPath": "C:\\Users\\arian\\.nuget\\packages\\",
-        "outputPath": "E:\\visual\\CsharpProjects\\Calculator1\\obj\\",
+        "outputPath": "C:\\arian\\CodeReviews.Console.Calculator\\Calculator1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arian\\AppData\\Roaming\\NuGet\\NuGet.Config",
