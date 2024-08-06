@@ -86,9 +86,8 @@ internal class Helpers
         switch (readResult)
         {
             case "c":
-                Helpers.PrintCalculations();
 
-                Console.WriteLine("You want to continue operating with the last result? 'y/n'"); 
+                Console.WriteLine("You want to continue operating with the last result? Press 'Y' for continue operating with the last result, type any other key to make new operations"); 
 
                if (Console.ReadLine() == "y")
                 {
@@ -101,7 +100,7 @@ internal class Helpers
                 break;
         }
 
-        Console.WriteLine("\n"); // Friendly linespacing.
+        Console.WriteLine("\n");
         Console.Clear();
 
         return result; 

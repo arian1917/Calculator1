@@ -12,7 +12,7 @@ public class Calculator
                 Helpers.AddHistory(CalculationType.Add, num1, num2, result); 
                 break;
 
-            case "min":
+            case "-":
                 result = Substaction(num1, num2);
                 Helpers.AddHistory(CalculationType.Substact, num1, num2, result);
                 break;

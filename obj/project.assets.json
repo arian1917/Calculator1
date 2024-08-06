@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\arian\\CodeReviews.Console.Calculator\\Calculator1\\Calculator1.csproj",
+      "projectUniqueName": "E:\\visual\\CsharpProjects\\Calculator1\\Calculator1.csproj",
       "projectName": "Calculator1",
-      "projectPath": "C:\\arian\\CodeReviews.Console.Calculator\\Calculator1\\Calculator1.csproj",
+      "projectPath": "E:\\visual\\CsharpProjects\\Calculator1\\Calculator1.csproj",
       "packagesPath": "C:\\Users\\arian\\.nuget\\packages\\",
-      "outputPath": "C:\\arian\\CodeReviews.Console.Calculator\\Calculator1\\obj\\",
+      "outputPath": "E:\\visual\\CsharpProjects\\Calculator1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arian\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

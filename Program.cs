@@ -36,6 +36,11 @@ namespace CalculatorProgram
                     Helpers.PrintCalculations(); 
                     Calculate(); 
                     break; 
+
+                default: 
+                    Console.WriteLine("Invalid key, try again!");
+                    Menu(); 
+                    break; 
             }
         }
         internal static void Calculate(){
@@ -57,7 +62,7 @@ namespace CalculatorProgram
 
                 Logic.TotalOperation(cleanNum1, cleanNum2, operation); 
 
-                    // Wait for the user to respond before closing.
+                
                 Console.Write(@$"Press the following keys:
 
     press 'q' and Enter to quit the application.

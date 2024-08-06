@@ -27,7 +27,7 @@ class Logic{
         Console.WriteLine(@$"Select one of the following operations:
 
 + - Add
-min - Substract
+- - Substract
 * - Multiply
 / - Division
 R - Square Root
@@ -38,12 +38,13 @@ Tan - Tangent
 ");
 
         var operation = Console.ReadLine();
-        if (operation == null || !Regex.IsMatch(operation, "[+|min|*|/|r|p|sin|cos|tan]"))
+        while (operation == null || !Regex.IsMatch(operation, @"^\+|\-|\*|/|r|p|sin|cos|tan$"))
         {
             Console.WriteLine("Error, unrecognized input, try again!");
+            operation = Console.ReadLine(); 
         }
 
-        else if (operation == "r" || operation == "sin" || operation == "cos" || operation == "tan")
+        if (operation == "r" || operation == "sin" || operation == "cos" || operation == "tan")
         {
             result = Calculator.DoOperation(cleanNum1, 0, operation); ;
             Console.WriteLine("Your result: {0:0.##}\n", result);

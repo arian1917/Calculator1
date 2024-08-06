@@ -12,3 +12,4 @@ E:\visual\CsharpProjects\Calculator1\obj\Debug\net8.0\refint\Calculator1.dll
 E:\visual\CsharpProjects\Calculator1\obj\Debug\net8.0\Calculator1.pdb
 E:\visual\CsharpProjects\Calculator1\obj\Debug\net8.0\Calculator1.genruntimeconfig.cache
 E:\visual\CsharpProjects\Calculator1\obj\Debug\net8.0\ref\Calculator1.dll
+E:\visual\CsharpProjects\Calculator1\obj\Debug\net8.0\Calculator1.sourcelink.json
